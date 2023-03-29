@@ -99,9 +99,16 @@
   font-size: 24px;
 }
 
+.social-icon-link:hover {
+  color: #fff;
+  font-size: 28px;
+}
+
 .social-media {
-  max-width: 1000px;
+  background-color: rgb(80, 80, 80);
+  max-width: 1450px;
   width: 100%;
+  margin-bottom: 0pt;
 }
 
 .social-media-wrap {
@@ -129,12 +136,13 @@
   font-size: 2rem;
   display: flex;
   align-items: center;
-  margin-bottom: 16px;
+  margin-bottom: 10px;
 }
 
 .website-rights {
   color: #fff;
-  margin-bottom: 16px;
+  margin-bottom: 0px;
+  font-size: 1.5rem;
 }
 
 @media screen and (max-width: 820px) {

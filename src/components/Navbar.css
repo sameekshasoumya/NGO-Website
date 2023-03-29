@@ -1,5 +1,5 @@
 .navbar {
-  background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+  background: linear-gradient(90deg, rgb(72, 76, 102) 0%, rgb(26, 23, 23) 100%);
   height: 80px;
   display: flex;
   justify-content: center;
@@ -18,6 +18,7 @@
   max-width: 1500px;
 }
 
+
 .navbar-logo {
   color: #fff;
   justify-self: start;
@@ -25,8 +26,26 @@
   cursor: pointer;
   text-decoration: none;
   font-size: 2rem;
+  margin-left: 40px;
   display: flex;
   align-items: center;
+}
+
+.upper{
+  margin-top: 0px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.lower{
+  margin-top: 0px;
+  font-size: 1.14rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.navbar-logo:hover {
+  transition: all 0.2s ease-out;
+  font-size: 2rem;
+  color:#6b71a2;
 }
 
 .fa-typo3 {
@@ -59,8 +78,10 @@
 }
 
 .nav-links:hover {
-  border-bottom: 4px solid #fff;
+  border-bottom: 4px solid rgb(111, 110, 110);
   transition: all 0.2s ease-out;
+  font-size: 1.3rem;
+  color: rgb(244, 216, 248);
 }
 
 .fa-bars {
